@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Gabarito", sans-serif;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: palevioletred;
+}
+
+.plans{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.plans h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.plan1,.plan2,.plan3{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    height: 280px;
+    border-radius: 20px;
+}
+
+.plan1__offers,.plan2__offers,.plan3__offers{
+    padding: 10px;
+    border: solid white 1px;
+    border-radius: 15px;
+}
+
+.plan1__offers p{
+    padding: 5px;
+}
+
+.plan2__offers p{
+    padding: 5px;
+}
+
+.plan3__offers p{
+    padding: 5px;
+}
+
+.plan1__offers i{
+    background-color: purple;
+    color: whitesmoke;
+    border-style: solid;
+    border-radius: 50%;
+    border: none;
+    padding: 3px;
+}
+
+.plan2__offers i{
+    background-color: purple;
+    color: whitesmoke;
+    border-style: solid;
+    border-radius: 50%;
+    border: none;
+    padding: 3px;
+}
+
+.plan3__offers i{
+    background-color: purple;
+    color: whitesmoke;
+    border-style: solid;
+    border-radius: 50%;
+    border: none;
+    padding: 3px;
+}
